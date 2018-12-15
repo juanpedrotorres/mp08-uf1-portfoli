@@ -1,13 +1,148 @@
 body {
-    background-color: lightblue;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 h1 {
-    color: white;
+  color: red;
+  text-align: center;
+  font-size: 40px;
+}
+       table {
+          width:100%;
+          max-width: 300px
+          margin: auto;
+          border-style: solid;
+          border-color: red;
+
+
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           background: #f0f0f0;
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+
+       .contenedor-div{
+      position:relative;
+          }
+          .bot{
+          position:absolute;
+          bottom:5px;
+          right:10px;
+                }
+          .bot2{
+          position: absolute;
+          bottom: 5px;
+          left: 10px;
+          }
+
+  .trparrafo {
     text-align: center;
+    color: black;
+  }
+
+  h2{
+    font-size: 60px;
+  }
+
+  .pietres {float:left; width:150px; border-left:black 1px solid;}
+
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
+  #table2 {
+    
+    position: absolute;
+    color: black;
+    font-size: 18px;
+  }
+
+  .tr22 {
+    font-size: 18px;
+    position: absolute;
+    color: black;
+  }
+  .td22{
+    font-size: 18px;
+    position: absolute;
+    color: black;
+  }
+
+  p {
+    color: black;
+  }
+
+  .parrafo1{
+
+    margin:40px;
+    color: black;
+    text-align: left;
+  }
+
+  .parrafo2{
+    margin:40px;
+    color: black; 
+    text-align: right;
+  }
+
+.contenedor {
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  text-align: center;
 }
+
+ .google-maps {
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35% ;
+    height: 35% ;
+    }
+
